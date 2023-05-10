@@ -5,7 +5,7 @@
   position: fixed;
   right: 0px;
   top: 0px;
-bottom: 0px;
+  bottom: 0px;
   width: 200px;
   overflow: auto;
 }
@@ -52,7 +52,7 @@ bottom: 0px;
   scale: 1.1;
 }
 
-.cart-button ~ input:checked ~ .cart {
-  height: 100%;
+.cart-button~input:checked~.cart {
+  height: 90vh;
   display: block;
 }
